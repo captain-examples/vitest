@@ -1,0 +1,5 @@
+test-suites:
+  captain-examples-vitest:
+    command: npx vitest run --reporter=default --reporter=json --outputFile=./tmp/vitest.json
+    results:
+      path: tmp/vitest.json
